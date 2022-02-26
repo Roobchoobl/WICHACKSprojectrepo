@@ -21,7 +21,7 @@ html{
 *{
     /* color: white;
     background-attachment: fixed; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 body {
@@ -99,7 +99,8 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-
+    height: 900px;
+    color: white;
 
 }
 
@@ -120,19 +121,41 @@ header{
     grid-template-columns: 1fr 1fr;
     margin: auto;
     max-width: 90%;
+    gap: 100px;
     
 }
 .local, .DIY{
     text-align: center;
     padding-right: 100px;
     height: 700px;
+    color: white;
+    font-size: 36px;
 }
 
 .local{
     grid-column: 1/2;
+    border: 1px solid white;
 }
 .DIY{
     grid-column: 2/3;
+    border: 1px solid white;
+}
+
+.page5{
+    margin: auto;
+    max-width: 90%;
+    height: 900px;
+    border: 1px solid white;
+
+}
+
+.news{
+    color: white;
+    text-align: left;
+    padding-top: 300px;
+    padding-left: 215px;
+    font-size: 36px;
+
 }
 /* 
 h2{
