@@ -18,10 +18,58 @@ html{
     /* background-color: black; */
 }
 
-* {
+body  > * > *{
     /* color: white;
     background-attachment: fixed; */
+    border: 1px solid red;
 }
+
+body {
+    background-color: #8F9B82;
+}
+
+.logo{
+    border-radius: 50%;
+    border: 1px solid black;
+    font-size: 72px;
+    width: 390px;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    
+    
+    
+}
+.brand{
+    font-size: 96px;
+    border: 1px solid black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 814px;
+    margin: auto;
+
+}
+.subtitle{
+    font-size: 36px;
+    border: 1px solid black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+    
+}
+
+header{
+    padding-top: 50px;
+}
+.separator{
+    padding: 50px;
+}
+
+.logo, .brand, .subtitle{
+    text-align: center;
+}
+
 
 .container {
     margin: auto;
@@ -29,36 +77,13 @@ html{
     max-width: 1000px;
 }
 
-p, li, .placeholder, .subtitle{
-    margin-left: 70px;
-}
-
-.placeholder, .subtitle, p{
-    padding: 10px;
-}
-
-.lorem {
-    padding: 20px;
-    margin: 15px;
-}
-
-
-h1 {
-    border-bottom: 5px solid blueviolet;
-}
-
 h2{
     background-repeat: no-repeat;
     height: 150px;
-    background-image: url("../Images/music.jpg");
+    background-image: url("");
     padding-left: 35px;
-    border-bottom: 2px solid hotpink;
 }
 
-
-h3{   
-    margin-left: 50px;
-}
 
 
 img {
