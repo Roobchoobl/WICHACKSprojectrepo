@@ -1,0 +1,92 @@
+/*  
+    body{color: red;} 
+    
+    ^^ this changes the entire thing red!
+    
+    selector{declaration}
+
+    selector{declaration property: declaration value;}
+    
+    
+    this is a comment block in css!
+    585-475-2255 student health center
+
+    something something try css3generator.com
+*/
+
+html{
+    /* background-color: black; */
+}
+
+* {
+    /* color: white;
+    background-attachment: fixed; */
+}
+
+.container {
+    margin: auto;
+    width: 90%; 
+    max-width: 1000px;
+}
+
+p, li, .placeholder, .subtitle{
+    margin-left: 70px;
+}
+
+.placeholder, .subtitle, p{
+    padding: 10px;
+}
+
+.lorem {
+    padding: 20px;
+    margin: 15px;
+}
+
+
+h1 {
+    border-bottom: 5px solid blueviolet;
+}
+
+h2{
+    background-repeat: no-repeat;
+    height: 150px;
+    background-image: url("../Images/music.jpg");
+    padding-left: 35px;
+    border-bottom: 2px solid hotpink;
+}
+
+
+h3{   
+    margin-left: 50px;
+}
+
+
+img {
+    float: right;
+}
+
+/* 
+    above is example code for now
+*/
+/* 
+h2{
+    clear: right;
+}
+header, section{
+    overflow: auto;
+} 
+
+    this is the solution to some problem involving images, don't know what it is yet
+*/
+
+
+a{
+}
+a:hover{
+}
+a:visited{
+}
+a:active{
+}
+
+
