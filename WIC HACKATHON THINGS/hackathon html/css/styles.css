@@ -94,6 +94,8 @@ header{
 }
 
 .page3{
+    margin: auto;
+    max-width: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -111,6 +113,26 @@ header{
 .bottomimg3{
     grid-column: 3/5;
     grid-row: 2/3;
+}
+
+.page4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    max-width: 90%;
+    
+}
+.local, .DIY{
+    text-align: center;
+    padding-right: 100px;
+    height: 700px;
+}
+
+.local{
+    grid-column: 1/2;
+}
+.DIY{
+    grid-column: 2/3;
 }
 /* 
 h2{
