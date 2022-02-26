@@ -50,6 +50,24 @@ body {
     margin: auto;
 
 }
+
+.progress, .blurb{
+    text-align: right;
+    color: white;
+}
+
+.progress{
+    padding-top: 350px;
+    padding-right: 100px;
+    font-size: 40px;
+}
+.blurb{
+    padding-bottom: 600px;
+    padding-right: 250px;
+    font-size: 26px;
+}
+
+
 .subtitle{
     font-size: 36px;
     border: 1px solid black;
@@ -76,13 +94,13 @@ header{
     width: 90%; 
     max-width: 1000px;
 }
-
+/* 
 h2{
     background-repeat: no-repeat;
     height: 150px;
     background-image: url("");
     padding-left: 35px;
-}
+} */
 
 
 
@@ -106,8 +124,10 @@ header, section{
 
 
 a{
+    color: white;
 }
 a:hover{
+    color: white;
 }
 a:visited{
 }
